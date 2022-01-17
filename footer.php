@@ -124,16 +124,16 @@
 <!--jquery  -->
 <script type="text/javascript" src="./js/jquery.js"></script>
 <script src="https://kit.fontawesome.com/021b940a03.js" crossorigin="anonymous"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	function googleTranslateElementInit() {
 		new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages : 'en,ne', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 	document.getElementById(':0.targetLanguage').nextSibling.remove()
 
 	}
 
-</script>
+</script> -->
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 
 <!-- fancybox -->
 <script type="text/javascript" src="./css/fancybox/jquery.fancybox.min.js"></script>

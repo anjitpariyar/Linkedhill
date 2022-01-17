@@ -160,7 +160,6 @@ include './template/nav.php';
 include 'footer.php';
 ?>
 
-<script type="text/javascript" src="./js/aboutus.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 
