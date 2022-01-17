@@ -1684,3 +1684,61 @@
     }
   }
 }
+
+//faq
+.faq {
+  .card {
+    border: none;
+    background-color: transparent;
+    .card-header {
+      margin: 1em 0 0 0 !important;
+      border: none;
+      border-radius: 0;
+      position: relative;
+      font-size: 18px;
+      font-weight: 600px;
+      color: #424242;
+      margin-bottom: 0px;
+      -webkit-transition: 0.3s ease-out;
+      transition: 0.3s ease-out;
+      overflow: hidden;
+      font-weight: lighter;
+      background-color: #fff;
+      padding: 1em;
+    }
+    .card-body {
+      padding: 1em;
+      padding-top: 0;
+      background-color: #fff;
+      .para {
+        color: #7e7e7e;
+        font-weight: 400;
+        font-size: 0.9em;
+      }
+    }
+    a {
+      color: #424242;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      text-decoration: none !important;
+      font-weight: 500;
+      .hide {
+        display: none;
+      }
+
+      &.collapsed {
+        .hide {
+          display: block;
+        }
+
+        .minus {
+          display: none;
+        }
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
