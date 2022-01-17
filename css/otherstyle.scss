@@ -1630,3 +1630,57 @@
     @include button;
   }
 }
+
+// contact-us
+.contact-us {
+  form {
+    .form-control {
+      height: 50px;
+      outline: none;
+      box-shadow: none;
+      background-color: $white;
+      &:focus,
+      &:focus-within {
+        border-color: $primary-color;
+      }
+    }
+    textarea {
+      height: 150px;
+    }
+    button {
+      @include button;
+      margin-left: auto;
+    }
+  }
+  .card__grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    @include responsivesm {
+      grid-template-columns: 1fr;
+    }
+    .card__right {
+      .material-icons {
+        color: $primary-color;
+      }
+      ul {
+        @include ul;
+      }
+      li:empty {
+        margin: 2em 0;
+      }
+    }
+    .card__left {
+      border: 1px solid rgba($dark, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1em;
+      .logo {
+        height: 100px;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+  }
+}

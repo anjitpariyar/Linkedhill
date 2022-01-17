@@ -29,7 +29,7 @@ include './template/nav.php';
 			</div>
 		</div>
     </section>
-    <section class="main-content ">
+    <section class="main-content " id="scrolldown">
 			<div class="section-rule">
                 <h2 class="section__title">About Us</h2>
                 <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ipsa, quia incidunt aliquam quae exercitationem facere deleniti ad, voluptate dolorem molestias consequuntur illum saepe dignissimos aspernatur! Voluptas amet sed at sapiente harum delectus, quas enim repellat rem repellendus! Totam, exercitationem!</p>

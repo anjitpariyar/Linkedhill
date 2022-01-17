@@ -80,12 +80,14 @@ label {
   box-shadow: rgba(192, 192, 192, 0.38) 0px 5px 12px;
   padding: 1.5em;
   border-radius: 8px;
+  background-color: #fff;
   .card--top {
     display: flex;
-    @include responsivesm {
+    @include responsivemd {
       flex-direction: column;
     }
     .card--text {
+      width: 100%;
       max-width: 475px;
       margin-left: 2em;
       @include responsivemd {
