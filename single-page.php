@@ -36,11 +36,7 @@ include './template/nav.php';
 									<img src="./gallery/card__img/img02.png" alt="">
 								</a>
 							</div>
-							<div class="item">
-								<a  class="image" data-fancybox="gallery" href="./gallery/card__img/img07.png">
-									<img src="./gallery/card__img/img07.png" alt="">
-								</a>
-							</div>
+							
 						</div>
 
 						<div class="slider-nav">
@@ -63,13 +59,6 @@ include './template/nav.php';
 								<div class="image">
 									<img src="./gallery/card__img/img02.png" alt="">
 								</div>
-
-							</div>
-							<div class="item">
-								<div class="image">
-									<img src="./gallery/card__img/img07.png" alt="">
-								</div>
-
 							</div>
 
 						</div>
@@ -849,6 +838,7 @@ include 'footer.php';
 			dots: false,
 			focusOnSelect: true,
 			infinite: false,
+			vertical: true,
 		});
 
 		$('.slider-nav .item').hover(function(){
