@@ -253,9 +253,9 @@
         color: $dark;
         border-radius: 6px;
         align-items: center;
+        margin-bottom: 1em;
         @include responsivelg {
           padding: 1em 12px !important;
-          margin-bottom: 1em;
         }
         @include responsivesm {
           padding: 8px;
